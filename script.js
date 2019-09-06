@@ -1,3 +1,3 @@
-$(document).ready(function() {
+$(function() {
   $("p").text('test test Rambo');
 });
