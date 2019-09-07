@@ -1,3 +1,22 @@
+//Person object with name and semester information
+let person = {
+  //Set variables
+  firstName: "Emma",
+  lastName : "Prager",
+  id : "Fall 2019 Courses",
+  //Functions to return data
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  },
+  semester : function() {
+    return this.id;
+  }
+};
+
+// Display data from the object (name and semester)
+console.log(person.fullName());
+console.log(person.semester());
+
 //Add listener to the function courses
 window.addEventListener("load", courses);
 
